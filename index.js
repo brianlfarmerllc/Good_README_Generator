@@ -13,11 +13,65 @@ const questions = [
     "How can others contribute?"
 ];
 
-function writeToFile(fileName, data) {
-}
 
 function init() {
+    
+    inquirer.prompt([
+        {
+          type: "input",
+          name: "name",
+          message: questions[0]
+        },
+        {
+          type: "input",
+          name: "repo",
+          message: questions[1]
+        },
+        {
+          type: "input",
+          name: "title",
+          message: questions[2]
+        },
+        {
+          type: "input",
+          name: "description",
+          message: questions[3]
+        },
+        {
+          type: "input",
+          name: "install",
+          message: questions[4]
+        },
+        {
+          type: "input",
+          name: "usage",
+          message: questions[5]
+        },
+        {
+          type: "input",
+          name: "license",
+          message: questions[6]
+        },
+        {
+          type: "input",
+          name: "contribute",
+          message: questions[7]
+        },
+      ]).then(function (data) {
+        var fileName = "README.md"
 
+        fs.writeFile(fileName, generateMarkdown(data), function(err) {
+      
+          if (err) {
+            return console.log(err);
+          }
+      
+        });
+      })
+
+      
+    
 }
 
 init();
+
