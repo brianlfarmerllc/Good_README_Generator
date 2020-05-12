@@ -54,9 +54,20 @@ function init() {
           message: questions[6]
         },
         {
-          type: "input",
+          type: "list",
           name: "license",
-          message: questions[7]
+          message: questions[7],
+          choices:[
+              "MIT",
+              "GPLv2",
+              "GPLv3",
+              "Apache",
+              "BSD 2-clause",
+              "BSD 3-clause",
+              "LGPLv3",
+              "AGPLv3",
+              "Unlicensed"
+          ]
         },
         {
           type: "input",

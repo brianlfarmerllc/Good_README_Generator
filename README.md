@@ -1,11 +1,15 @@
 
-  # Good Read Me Generator
+  # CLI Good Read Me Generator
 
-  [![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
+  [![GitHub license](https://img.shields.io/badge/license-Unlicensed-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
+  The following image demonstrates the application functionality:
+
+  ![Good Read Me Generator Demo](./assets/good-read-me.gif)
+
   
   ## Description
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Using the command line you will be able to generate clean and consistantly formatted readme files utilizing this sime to use read me generator. in the command line run node index.js to invoke the application. 
 
   ## Table of Contents
   
@@ -16,19 +20,19 @@
   
   ## Installation
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  node installer
 
   ## Usage
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  to generate consistant read me file for users of your applciations and projects
 
   ## License
 
-  this application is licensed under the mit license
+  this application is licensed under the Unlicensed license
 
   ## Contributions
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Not available at this time
 
   ## Questions
 

@@ -3,6 +3,10 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ${"[![GitHub license](https://img.shields.io/badge/license-"+data.license+"-blue.svg)]("+data.repo+")"}
+  ${"The following image demonstrates the application functionality:"}
+
+  ${"![Good Read Me Generator Demo](./assets/good-read-me.gif)"}
+
   
   ## ${"Description"}
 
