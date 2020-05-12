@@ -4,6 +4,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
     "What is your Github user name?",
+    "What is your email",
     "What is the project Repo URL?",
     "What is your project title?", 
     "What is your project description?", 
@@ -24,38 +25,43 @@ function init() {
         },
         {
           type: "input",
-          name: "repo",
+          name: "email",
           message: questions[1]
         },
         {
           type: "input",
-          name: "title",
+          name: "repo",
           message: questions[2]
         },
         {
           type: "input",
-          name: "description",
+          name: "title",
           message: questions[3]
         },
         {
           type: "input",
-          name: "install",
+          name: "description",
           message: questions[4]
         },
         {
           type: "input",
-          name: "usage",
+          name: "install",
           message: questions[5]
         },
         {
           type: "input",
-          name: "license",
+          name: "usage",
           message: questions[6]
         },
         {
           type: "input",
-          name: "contribute",
+          name: "license",
           message: questions[7]
+        },
+        {
+          type: "input",
+          name: "contribute",
+          message: questions[8]
         },
       ]).then(function (data) {
         var fileName = "README.md"
