@@ -9,7 +9,9 @@ const questions = [
     "What is your project title?", 
     "What is your project description?", 
     "What are the project installation instructions?", 
-    "What is your projects intended usage?",
+    "How do you test the application",
+    "What is the path to your video showing your projects intended usage?",
+    "What types of technologies were used",
     "What type of license would you like to assign?",
     "How can others contribute?"
 ];
@@ -50,13 +52,35 @@ function init() {
         },
         {
           type: "input",
-          name: "usage",
+          name: "test",
           message: questions[6]
+        },
+        {
+          type: "input",
+          name: "usage",
+          message: questions[7]
+        },
+        {
+          type: "checkbox",
+          name: "tech",
+          message: questions[8],
+          choices:[
+              "HTML5",
+              "CSS",
+              "Javascript",
+              "jQuery",
+              "Moment",
+              "Bootstrap",
+              "Node.js",
+              "Inquirer",
+              "Local-Storage"
+              
+          ]
         },
         {
           type: "list",
           name: "license",
-          message: questions[7],
+          message: questions[9],
           choices:[
               "MIT",
               "GPLv2",
@@ -72,7 +96,7 @@ function init() {
         {
           type: "input",
           name: "contribute",
-          message: questions[8]
+          message: questions[10]
         },
       ]).then(function (data) {
         var fileName = "README.md"

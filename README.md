@@ -1,40 +1,50 @@
 
-  # CLI Good Read Me Generator
+  # CLI Read Me Generator
 
-  [![GitHub license](https://img.shields.io/badge/license-Unlicensed-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
-  The following image demonstrates the application functionality:
-
-  ![Good Read Me Generator Demo](./assets/good-read-me.gif)
-
+  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
   
   ## Description
 
-  Using the command line you will be able to generate clean and consistantly formatted readme files utilizing this sime to use read me generator. in the command line run node index.js to invoke the application. 
+  This read me generator runs in the command line and generates consistent README.md documents for your end users to get a clear picture of how your application works and its intended function. You can add a Title of the project, add an application description, provide install and user instructions, detail technologies used in development, set license preferences, and even attach user asset files. The goal of this application is to provide a resource to create clean and consistent README.md files across all your projects.
 
   ## Table of Contents
   
   * [Installation](#Installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributions](#contributions)
+  * [Test](#Test)
+  * [Usage](#Usage)
+  * [Technologies](#Technologies)
+  * [License](#License)
+  * [Contributions](#Contributions)
   
   ## Installation
 
-  node installer
+  Clone repository to your local machine then run npm install.
+
+  ## Test
+
+  Open the application in VS Code. In the VS Code terminal run node index.js
 
   ## Usage
 
-  to generate consistant read me file for users of your applciations and projects
+  The following image demonstrates the application functionality:
+
+  ![Good Read Me Generator Demo](./assets/good-read-me.gif)
+
+  ## Technologies
+
+  The following technologies were used in the developement of the application
+
+  Javascript,Node.js,Inquirer
 
   ## License
 
-  this application is licensed under the Unlicensed license
+  This application is licensed under the MIT license
 
   ## Contributions
 
-  Not available at this time
+  Not applicable to this application
 
   ## Questions
 
-  If you have any questions about the application you can open a ticket or contact brianlfarmerllc directly @ notmyemail@gmail.com
+  If you have any questions about the application you can open a ticket or contact BrianLFarmerLLC directly @ BrianLFarmerLLC@Gmail.com
   
