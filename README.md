@@ -2,6 +2,8 @@
   # CLI Read Me Generator
 
   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
+
+  [![GitHub Image](https://contributors-img.web.app/image?repo=brianlfarmerllc/Good_README_Generator)](https://github.com/brianlfarmerllc/Good_README_Generator)
   
   ## Description
 
@@ -46,5 +48,5 @@
 
   ## Questions
 
-  If you have any questions about the application you can open a ticket or contact BrianLFarmerLLC directly @ BrianLFarmerLLC@Gmail.com
+  If you have any questions about the application you can open a ticket or contact BrianLFarmerLLC directly @ BrianLFarmerLLC@gmail.com
   
