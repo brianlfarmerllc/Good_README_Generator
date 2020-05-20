@@ -73,7 +73,9 @@ function init() {
               "Bootstrap",
               "Node.js",
               "Inquirer",
-              "Local-Storage"
+              "Local-Storage",
+              "Express",
+              "Heroku"
               
           ]
         },
@@ -99,7 +101,7 @@ function init() {
           message: questions[10]
         },
       ]).then(function (data) {
-        var fileName = "README.md"
+        var fileName = "NEWREADME.md"
 
         fs.writeFile(fileName, generateMarkdown(data), function(err) {
       
