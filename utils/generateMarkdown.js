@@ -50,9 +50,6 @@ function generateMarkdown(data) {
 
   Made with [contributors-img](https://contributors-img.web.app).
 
-
-  ${data.contribute}
-
   ## Questions
 
   If you have any questions about the application you can contact ${data.name} directly @ ${data.email}

@@ -49,9 +49,6 @@
 
   Made with [contributors-img](https://contributors-img.web.app).
 
-
-  undefined
-
   ## Questions
 
   If you have any questions about the application you can contact brianlfarmerllc directly @ brianlfarmerllc@gmail.com
