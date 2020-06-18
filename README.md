@@ -1,9 +1,7 @@
 
   # CLI Read Me Generator
 
-  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/brianlfarmerllc/Good_README_Generator)
-
-  [![GitHub Image](https://contributors-img.web.app/image?repo=brianlfarmerllc/Good_README_Generator)](https://github.com/brianlfarmerllc/Good_README_Generator)
+  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](brianlfarmerllc/Good_README_Generator)
   
   ## Description
 
@@ -30,23 +28,31 @@
 
   The following image demonstrates the application functionality:
 
-  ![Good Read Me Generator Demo](./assets/good-read-me.gif)
+  ![Add Description !!!!!!](./assets/good-read-me.gif)
 
   ## Technologies
 
   The following technologies were used in the developement of the application
 
-  Javascript,Node.js,Inquirer
+  Javascript and jQuery,Node.js,Inquirer
 
   ## License
 
   This application is licensed under the MIT license
 
-  ## Contributions
+  ## Contributors
 
-  Not applicable to this application
+  Contributor information and commit history can be seen here!
+  <a href="https://github.com/brianlfarmerllc/Good_README_Generator/graphs/contributors">
+    <img src="https://contributors-img.web.app/image?repo=brianlfarmerllc/Good_README_Generator" />
+  </a>
+
+  Made with [contributors-img](https://contributors-img.web.app).
+
+
+  undefined
 
   ## Questions
 
-  If you have any questions about the application you can open a ticket or contact BrianLFarmerLLC directly @ BrianLFarmerLLC@gmail.com
+  If you have any questions about the application you can contact brianlfarmerllc directly @ brianlfarmerllc@gmail.com
   

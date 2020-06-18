@@ -29,7 +29,7 @@ function generateMarkdown(data) {
 
   The following image demonstrates the application functionality:
 
-  ![Add Description !!!!!!](${data.usage})}
+  ![Add Description !!!!!!](${data.usage})
 
   ## Technologies
 
