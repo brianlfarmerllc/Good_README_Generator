@@ -13,7 +13,7 @@ const questions = [
     "What is the path to your video showing your projects intended usage?",
     "What types of technologies were used",
     "What type of license would you like to assign?",
-    "How can others contribute?"
+    "Who contributed to this project?"
 ];
 
 
@@ -67,16 +67,18 @@ function init() {
           choices:[
               "HTML5",
               "CSS",
-              "Javascript",
-              "jQuery",
+              "Javascript and jQuery",
               "Moment",
               "Bootstrap",
               "Node.js",
               "Inquirer",
-              "Local-Storage",
               "Express",
-              "Heroku"
-              
+              "Heroku",
+              "MYSQL",
+              "Handlebars",
+              "Sequeize",
+              "Mongo and Mongoose",
+              "Chart.js"   
           ]
         },
         {

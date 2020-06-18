@@ -2,54 +2,60 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ${"[![GitHub license](https://img.shields.io/badge/license-" + data.license + "-blue.svg)](" + data.repo + ")"}
-
-  ${"[![GitHub Image](https://contributors-img.web.app/image?repo=brianlfarmerllc/Good_README_Generator)](" + data.repo + ")"}
+  [![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)](${data.repo})
   
-  ## ${"Description"}
+  ## Description
 
   ${data.description}
 
-  ## ${"Table of Contents"}
+  ## Table of Contents
   
-  * ${"[Installation](#Installation)"}
-  * ${"[Test](#Test)"}
-  * ${"[Usage](#Usage)"}
-  * ${"[Technologies](#Technologies)"}
-  * ${"[License](#License)"}
-  * ${"[Contributions](#Contributions)"}
+  * [Installation](#Installation)
+  * [Test](#Test)
+  * [Usage](#Usage)
+  * [Technologies](#Technologies)
+  * [License](#License)
+  * [Contributions](#Contributions)
   
-  ## ${"Installation"}
+  ## Installation
 
   ${data.install}
 
-  ## ${"Test"}
+  ## Test
 
   ${data.test}
 
-  ## ${"Usage"}
+  ## Usage
 
-  ${"The following image demonstrates the application functionality:"}
+  The following image demonstrates the application functionality:
 
-  ${"![Good Read Me Generator Demo](" + data.usage + ")"}
+  ![Add Description !!!!!!](${data.usage})}
 
-  ## ${"Technologies"}
+  ## Technologies
 
-  ${"The following technologies were used in the developement of the application"}
+  The following technologies were used in the developement of the application
 
   ${data.tech}
 
-  ## ${"License"}
+  ## License
 
-  ${"This application is licensed under the " + data.license + " license"}
+  This application is licensed under the ${data.license} license
 
-  ## ${"Contributions"}
+  ## Contributors
+
+  Contributor information and commit history can be seen here!
+  <a href="https://github.com/${data.repo}/graphs/contributors">
+    <img src="https://contributors-img.web.app/image?repo=${data.repo}" />
+  </a>
+
+  Made with [contributors-img](https://contributors-img.web.app).
+
 
   ${data.contribute}
 
-  ## ${"Questions"}
+  ## Questions
 
-  ${"If you have any questions about the application you can open a ticket or contact " + data.name + " directly @ " + data.email}
+  If you have any questions about the application you can contact ${data.name} directly @ ${data.email}
   `;
 }
 
