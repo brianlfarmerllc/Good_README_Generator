@@ -45,7 +45,7 @@ function generateMarkdown(data) {
 
   Contributor information and commit history can be seen here!
   <a href="https://github.com/${data.repo}/graphs/contributors">
-    <img src="https://contributors-img.web.app/image?repo=${data.repo}" />
+    <img src="https://contributors-img.web.app/image?repo=${data.name}/${data.title}" />
   </a>
 
   Made with [contributors-img](https://contributors-img.web.app).
